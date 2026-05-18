@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
+@import "tailwindcss";
+
+@import "./theme.css";
+@import "./reset.css";
+@import "./utilities.css";
+@import "./animations.css";
+@import "./scrollbar.css";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+
+  background-color: var(--color-background);
+  color: var(--color-text);
+
+  min-height: 100vh;
+
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}

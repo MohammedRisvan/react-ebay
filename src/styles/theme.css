@@ -1,0 +1,33 @@
+
+@theme {
+  /* Colors */
+  --color-secondary: #f5f5f5;
+  --color-primary: #3665f3;
+
+  --color-background: #f7f7f7;
+
+  --color-text: #111827;
+  --color-muted: #6b7280;
+
+  --color-border: #e5e7eb;
+
+  /* Radius */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 18px;
+
+  /* Shadows */
+  --shadow-card: 0 4px 12px rgba(0, 0, 0, 0.08);
+
+  /* Fonts */
+  --font-sans: "Inter", sans-serif;
+
+  /* Container */
+  --container-xl: 1400px;
+}
+/* bg-primary
+text-primary
+border-border
+rounded-md
+shadow-card
+font-sans */
