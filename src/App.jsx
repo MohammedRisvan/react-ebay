@@ -1,9 +1,42 @@
+import Container from "./components/common/Container";
+
+import Input from "./components/common/Input";
+
+import Button from "./components/common/Button";
+
 function App() {
   return (
-    <div className="min-h-screen bg-secondary p-10">
-      <h1 className="text-4xl font-bold text-primary">
-        eBay Clone UI
-      </h1>
+    <div className="min-h-screen bg-secondary py-10">
+      <Container>
+        <div className="max-w-md space-y-6">
+          <Input
+            label="Email"
+            placeholder="Enter your email"
+          />
+
+          <Input
+            label="Password"
+            type="password"
+            placeholder="Enter password"
+          />
+
+          <Input
+            label="Username"
+            placeholder="Invalid input"
+            error="Username is required"
+          />
+
+          <Input
+            label="Disabled"
+            disabled
+            placeholder="Disabled input"
+          />
+
+          <Button className="w-full">
+            Continue
+          </Button>
+        </div>
+      </Container>
     </div>
   );
 }
